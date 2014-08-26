@@ -28,17 +28,25 @@ function get_thenounproject(id,name) {
     }
     var dname = sh.env['HOME'] + "/Downloads/svg_" + id + ".zip";
     if (sh.test("-e",dname)) {
-	console.log("Have something for: " + name);
-	sh.exec("unzip -j " + dname + " */icon*.svg */license.txt -d " + "svg");
+	console.log("Working on: " + name);
+	sh.exec("unzip -j " + dname + " \"*/icon*.svg\" \"*/license.txt\" -d " + "svg");
 	sh.mv("svg/icon_" + id + ".svg", "svg/" + name + ".svg");
 	var attr = sh.grep("from The Noun Project","svg/license.txt");
 	var author = attr.match(/[^ \t].* by (.*) from The Noun Project/,attr[0]);
-	if (!author) return null;
-	if (!sh.grep("Commons Attribution","svg/license.txt")) return null;
-	sh.grep('-v',"(Premium)|(worry about attribution)|(purchase with)","svg/license.txt").to("svg/" + name + ".txt");
-	sh.rm("svg/license.txt");
-	author = author[1];
+	var dud = false;
+	if (!author) dud = true;
+	if (!sh.grep("Commons Attribution","svg/license.txt")) dud = true;
 	var license = "CC BY";
+	if (sh.grep("Public Domain","svg/license.txt")) {
+	    author = ["PD","[Public Domain]"];
+	    dud = false;
+	    license = "Public Domain";
+	}
+	var license_txt = sh.grep('-v',"(Premium)|(worry about attribution)|(purchase with)","svg/license.txt");
+	sh.rm("svg/license.txt");
+	if (dud) return false;
+	license_txt.to("svg/" + name + ".txt");
+	author = author[1];
 	return {
 	    author: author,
 	    license: license,

@@ -40,13 +40,21 @@
       "np_id": "61025",
       "media": "svg/prime.svg"
     },
-{
-	"title": "square",
-	"src": "http://thenounproject.com/term/square/6403/"
-},
-{
-	"title": "not",
-	"src": "http://thenounproject.com/term/rotation/64789/"
-}
+    {
+      "title": "square",
+      "src": "http://thenounproject.com/term/square/6403/",
+      "author": "[Public Domain]",
+      "license": "Public Domain",
+      "np_id": "6403",
+      "media": "svg/square.svg"
+    },
+    {
+      "title": "not",
+      "src": "http://thenounproject.com/term/rotation/64789/",
+      "author": "Boris Kaiser",
+      "license": "CC BY",
+      "np_id": "64789",
+      "media": "svg/not.svg"
+    }
   ]
 }
