@@ -1,0 +1,52 @@
+{
+  "vocab": [
+    {
+      "title": "is",
+      "src": "http://thenounproject.com/term/flag/25841/",
+      "author": "factor[e] design initiative",
+      "license": "CC BY",
+      "np_id": "25841",
+      "media": "svg/is.svg"
+    },
+    {
+      "title": "int",
+      "src": "http://thenounproject.com/term/abacus/8926/",
+      "author": "Cris Dobbins",
+      "license": "CC BY",
+      "np_id": "8926",
+      "media": "svg/int.svg"
+    },
+    {
+      "title": "unary",
+      "src": "http://thenounproject.com/term/dice/44176/",
+      "author": "Ryan Reid",
+      "license": "CC BY",
+      "np_id": "44176",
+      "media": "svg/unary.svg"
+    },
+    {
+      "title": "=",
+      "src": "http://thenounproject.com/term/ying-yang/38981/",
+      "author": "José Manuel de Laá",
+      "license": "CC BY",
+      "np_id": "38981",
+      "media": "svg/_equals_.svg"
+    },
+    {
+      "title": "prime",
+      "src": "http://thenounproject.com/term/love-percent/61025/",
+      "author": "Till Teenck",
+      "license": "CC BY",
+      "np_id": "61025",
+      "media": "svg/prime.svg"
+    },
+{
+	"title": "square",
+	"src": "http://thenounproject.com/term/square/6403/"
+},
+{
+	"title": "not",
+	"src": "http://thenounproject.com/term/rotation/64789/"
+}
+  ]
+}
