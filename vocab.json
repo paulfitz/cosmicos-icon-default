@@ -26,10 +26,10 @@
     },
     {
       "title": "=",
-      "src": "http://thenounproject.com/term/ying-yang/38981/",
-      "author": "José Manuel de Laá",
-      "license": "CC BY",
-      "np_id": "38981",
+      "src": "http://thenounproject.com/term/ying-yang/17027/",
+      "author": "[Public Domain]",
+      "license": "Public Domain",
+      "np_id": "17027",
       "media": "svg/_equals_.svg"
     },
     {
@@ -55,6 +55,86 @@
       "license": "CC BY",
       "np_id": "64789",
       "media": "svg/not.svg"
+    },
+    {
+      "title": "intro",
+      "src": "http://thenounproject.com/term/sunrise/6050/",
+      "author": "Razlan Hanafiah",
+      "license": "CC BY",
+      "np_id": "6050",
+      "media": "svg/intro.svg"
+    },
+    {
+      "title": "<",
+      "src": "http://thenounproject.com/term/contract/4993/",
+      "author": "Dmitry Baranovskiy",
+      "license": "CC BY",
+      "np_id": "4993",
+      "media": "svg/_lt_.svg"
+    },
+    {
+      "title": ">",
+      "src": "http://thenounproject.com/term/expand/5000/",
+      "author": "Dmitry Baranovskiy",
+      "license": "CC BY",
+      "np_id": "5000",
+      "media": "svg/_gt_.svg"
+    },
+    {
+      "title": "assign",
+      "src": "http://thenounproject.com/term/box/3807/",
+      "author": "[Public Domain]",
+      "license": "Public Domain",
+      "np_id": "3807",
+      "media": "svg/assign.svg"
+    },
+    {
+      "title": "?",
+      "src": "http://thenounproject.com/term/question/14271/",
+      "author": "Greg Pabst",
+      "license": "CC BY",
+      "np_id": "14271",
+      "media": "svg/_lambda_.svg"
+    },
+    {
+      "title": "x",
+      "src": "http://thenounproject.com/term/duck/11061/",
+      "author": "Isabel Martínez Isabel",
+      "license": "CC BY",
+      "np_id": "11061",
+      "media": "svg/x.svg"
+    },
+    {
+      "title": "y",
+      "src": "http://thenounproject.com/term/hummingbird/1293/",
+      "author": "Fabio Grande",
+      "license": "CC BY",
+      "np_id": "1293",
+      "media": "svg/y.svg"
+    },
+    {
+      "title": "z",
+      "src": "http://thenounproject.com/term/llama/3876/",
+      "author": "Alex Riegelman",
+      "license": "CC BY",
+      "np_id": "3876",
+      "media": "svg/z.svg"
+    },
+    {
+      "title": "define",
+      "src": "http://thenounproject.com/term/bookmark/24447/",
+      "author": "[Public Domain]",
+      "license": "Public Domain",
+      "np_id": "24447",
+      "media": "svg/define.svg"
+    },
+    {
+      "title": "meaning-of-life-universe-everything",
+      "src": "http://thenounproject.com/term/towel/62902/",
+      "author": "Arthur Shlain",
+      "license": "CC BY",
+      "np_id": "62902",
+      "media": "svg/meaning-of-life-universe-everything.svg"
     }
   ]
 }

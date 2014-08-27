@@ -10,7 +10,10 @@ var fs = require('fs');
 var sh = require('shelljs');
 
 var name_sub = {
-    "=": "_equals_"
+    "=": "_equals_",
+    "<": "_lt_",
+    ">": "_gt_",
+    "?": "_lambda_"
 };
 
 function get_thenounproject(id,name) {
