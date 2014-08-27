@@ -71,7 +71,7 @@ for (var i=0; i<vocabs.length; i++) {
     var src = vocab.src;
     var np_id = vocab.np_id;
     var media = vocab.media;
-    if (!media) {
+    if (src && !media) {
 	var m = src.match(/thenounproject.com\/.*\/.*\/([0-9]+)\//);
 	if (m) {
 	    var fields = get_thenounproject(m[1],title);

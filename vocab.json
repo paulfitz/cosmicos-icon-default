@@ -65,7 +65,7 @@
       "media": "svg/intro.svg"
     },
     {
-      "title": "<",
+      "title": "<-SKIP",
       "src": "http://thenounproject.com/term/contract/4993/",
       "author": "Dmitry Baranovskiy",
       "license": "CC BY",
@@ -73,7 +73,7 @@
       "media": "svg/_lt_.svg"
     },
     {
-      "title": ">",
+      "title": ">-SKIP",
       "src": "http://thenounproject.com/term/expand/5000/",
       "author": "Dmitry Baranovskiy",
       "license": "CC BY",
@@ -135,6 +135,26 @@
       "license": "CC BY",
       "np_id": "62902",
       "media": "svg/meaning-of-life-universe-everything.svg"
+    },
+    {
+      "title": "false",
+      "src": "http://thenounproject.com/term/no/26815/",
+      "author": "Cornelius Danger",
+      "license": "CC BY",
+      "np_id": "26815",
+      "media": "svg/false.svg"
+    },
+    {
+      "title": "true",
+      "src": "http://thenounproject.com/term/cherry/15275/",
+      "author": "Benni",
+      "license": "CC BY",
+      "np_id": "15275",
+      "media": "svg/true.svg"
+    },
+    {
+	"title": "if",
+	"alias": "true:false"
     }
   ]
 }
