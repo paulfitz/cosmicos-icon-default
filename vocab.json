@@ -10,10 +10,10 @@
     },
     {
       "title": "int",
-      "src": "http://thenounproject.com/term/abacus/8926/",
-      "author": "Cris Dobbins",
+      "src": "http://thenounproject.com/term/stack/20264/",
+      "author": "Michael Rowe",
       "license": "CC BY",
-      "np_id": "8926",
+      "np_id": "20264",
       "media": "svg/int.svg"
     },
     {
@@ -153,8 +153,36 @@
       "media": "svg/true.svg"
     },
     {
-	"title": "if",
-	"alias": "true:false"
+      "title": "if",
+      "alias": "true:false"
+    },
+    {
+      "title": "max",
+      "alias": ">:>"
+    },
+    {
+      "title": "min",
+      "alias": "<:<"
+    },
+    {
+      "title": "factorial",
+      "alias": "*:<"
+    },
+    {
+      "title": "and",
+      "alias": "true:*"
+    },
+    {
+      "title": "or",
+      "alias": "true:+"
+    },
+    {
+      "title": ">=",
+      "alias": ">:="
+    },
+    {
+      "title": "<=",
+      "alias": "<:="
     }
   ]
 }
