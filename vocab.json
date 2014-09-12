@@ -153,6 +153,54 @@
       "media": "svg/true.svg"
     },
     {
+      "title": "pair",
+      "src": "http://thenounproject.com/term/merge/539/",
+      "author": "Edward Boatman",
+      "license": "CC BY",
+      "np_id": "539",
+      "media": "svg/pair.svg"
+    },
+    {
+      "title": "begin",
+      "src": "http://thenounproject.com/term/moon-waning-crescent/41886/",
+      "author": "André Luiz Gollo",
+      "license": "CC BY",
+      "np_id": "41886",
+      "media": "svg/begin.svg"
+    },
+    {
+      "title": "end",
+      "src": "http://thenounproject.com/term/moon-waxing-crescent/41876/",
+      "author": "André Luiz Gollo",
+      "license": "CC BY",
+      "np_id": "41876",
+      "media": "svg/end.svg"
+    },
+    {
+      "title": "make-cell",
+      "src": "http://thenounproject.com/term/map-marker/2848/",
+      "author": "P.J. Onori",
+      "license": "CC BY",
+      "np_id": "2848",
+      "media": "svg/cell.svg"
+    },
+    {
+      "title": "emerge",
+      "src": "http://thenounproject.com/term/external/50351/",
+      "author": "Icons8",
+      "license": "CC BY",
+      "np_id": "50351",
+      "media": "svg/emerge.svg"
+    },
+    {
+      "title": "demo",
+      "src": "http://thenounproject.com/term/theater/49882/",
+      "author": "Murali Krishna",
+      "license": "CC BY",
+      "np_id": "49882",
+      "media": "svg/demo.svg"
+    },
+    {
       "title": "if",
       "alias": "true:false"
     },
@@ -183,6 +231,26 @@
     {
       "title": "<=",
       "alias": "<:="
+    },
+    {
+      "title": "cons",
+      "alias": "pair"
+    },
+    {
+      "title": "car",
+      "alias": "pair:begin"
+    },
+    {
+      "title": "cdr",
+      "alias": "pair:end"
+    },
+    {
+      "title": "set!",
+      "alias": "make-cell:define"
+    },
+    {
+      "title": "get!",
+      "alias": "make-cell:emerge"
     }
   ]
 }
